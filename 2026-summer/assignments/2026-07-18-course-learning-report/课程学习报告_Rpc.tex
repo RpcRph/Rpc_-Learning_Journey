@@ -1,11 +1,12 @@
-%  我本地环境是 Windows + MiKTeX，使用 VS Code 编写并通过 LaTeX Workshop 编译
-%  注意确保 XeLaTeX 完整编译至少两次  目录内容需要第一遍生成 .toc 文件  页码同样依赖第二遍读取lastpage标签
+% 我本地环境是 Windows + MiKTeX，使用 VS Code 编写并通过 LaTeX Workshop 编译
+% 注意确保 XeLaTeX 完整编译至少两次  目录内容需要第一遍生成 .toc 文件  页码同样依赖第二遍读取lastpage标签
 % 本文按 Windows + MiKTeX/TeX Live 配置中文字体；不要使用 pdfLaTeX 编译。
+% !LW recipe=latexmk (xelatex)
 \documentclass[UTF8,zihao=-4,a4paper,fontset=windows]{ctexart}
 
 %==================== 我的基本信息====================
-\newcommand{\StudentName}{任鹏程}
-\newcommand{\StudentID}{2026201673}
+\newcommand{\StudentName}{Rpc}
+\newcommand{\StudentID}{This is my student ID}
 \newcommand{\Major}{计算机科学与技术}
 \newcommand{\CourseName}{学业基本情况介绍与计算机基本使用}
 \newcommand{\ReportDate}{2026年7月18日}
@@ -71,7 +72,7 @@
 \fancyhf{}
 \fancyhead[L]{\small\color{TextGray}\CourseName}
 \fancyhead[R]{\small\color{TextGray}第一次课程学习报告}
-\fancyfoot[C]{\small 第\thepage 页，共\pageref{LastPage}页}
+\fancyfoot[C]{\small 第\thepage{}页，共\pageref{LastPage}页}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
 
