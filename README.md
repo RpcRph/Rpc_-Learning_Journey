@@ -13,6 +13,8 @@
 | 日期 | 内容 | 类型 | 源文件 | 成品 |
 | --- | --- | --- | --- | --- |
 | 2026-07-18 | 课程学习报告 | 作业 | [TeX](2026-summer/assignments/2026-07-18-course-learning-report/课程学习报告_任鹏程.tex) | [PDF](2026-summer/assignments/2026-07-18-course-learning-report/课程学习报告_任鹏程.pdf) |
+| 2026-07-28 | 学习报告  |   作业  | [MD](2026-summer\assignments\2026-07-28-weekly-learning-report\学习报告_Rpc.md) | [MD](2026-summer\assignments\2026-07-28-weekly-learning-report\学习报告_Rpc.md)|
+| 2026-07-29 | 机器学习知识点总结汇报  |   作业  | [Tex](2026-summer\assignments\2026-07-28-weekly-learning-report\机器学习入门知识总结_Rpc.tex) | [Pdf](2026-summer\assignments\2026-07-28-weekly-learning-report\机器学习入门知识总结_Rpc.pdf)|
 
 ## 仓库结构
 
