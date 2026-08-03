@@ -19,9 +19,11 @@
 | 日期 | 内容 | 类型 | 源文件 | 成品 |
 | --- | --- | --- | --- | --- |
 | 2026-07-18 | 课程学习报告 | 作业 | [TeX](2026-summer/assignments/2026-07-18-course-learning-report/课程学习报告_Rpc.tex) | [PDF](2026-summer/assignments/2026-07-18-course-learning-report/课程学习报告_Rpc.pdf) |
-| 2026-07-28 | 学习报告 | 作业一·第一部分 | [Markdown](2026-summer/assignments/2026-07-28-weekly-learning-report/学习报告_Rpc.md) | [Markdown](2026-summer/assignments/2026-07-28-weekly-learning-report/学习报告_Rpc.md) |
-| 2026-07-29 | 机器学习入门知识总结 | 作业一·第二部分 | [TeX](2026-summer/assignments/2026-07-28-weekly-learning-report/机器学习入门知识总结_Rpc.tex) | [PDF](2026-summer/assignments/2026-07-28-weekly-learning-report/机器学习入门知识总结_Rpc.pdf) |
-| 2026-07-29 至今 | [机器学习入门代码实践](2026-summer/projects/machine-learning-practice/README.md) | 作业一·第三部分 / 项目 | [Python](2026-summer/projects/machine-learning-practice/src/ml_practice/) | [结果报告](2026-summer/projects/machine-learning-practice/RESULTS.md) |
+| 2026-07-28 | 学习报告 | 作业 | [Markdown](2026-summer/assignments/2026-07-28-weekly-learning-report/学习报告_Rpc.md) | [Markdown](2026-summer/assignments/2026-07-28-weekly-learning-report/学习报告_Rpc.md) |
+| 2026-07-29 | 机器学习入门知识总结 | 作业 | [TeX](2026-summer/assignments/2026-07-28-weekly-learning-report/机器学习入门知识总结_Rpc.tex) | [PDF](2026-summer/assignments/2026-07-28-weekly-learning-report/机器学习入门知识总结_Rpc.pdf) |
+| 2026-07-29 至今 | [机器学习入门代码实践](2026-summer/projects/machine-learning-practice/README.md) | 作业/项目 | [Python](2026-summer/projects/machine-learning-practice/src/ml_practice/) | [结果报告](2026-summer/projects/machine-learning-practice/RESULTS.md) |
+| 2026-07-29  | Git实践 | 作业| [Markdown](2026-summer/assignments/2026-07-28-weekly-learning-report/Git实践.md)  | [Markdown](2026-summer/assignments/2026-07-28-weekly-learning-report/Git实践.md) |
+
 
 ## 仓库结构
 

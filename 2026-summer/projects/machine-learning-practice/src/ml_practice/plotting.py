@@ -1,7 +1,4 @@
-"""Shared plotting helpers.
-
-The Agg backend saves figures without opening a GUI window, so the same code
-works in VS Code's terminal, a CI runner, or a remote server.
+"""
 公共绘图模块
 """
 

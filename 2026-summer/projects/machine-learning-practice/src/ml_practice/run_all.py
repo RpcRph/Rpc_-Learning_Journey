@@ -1,6 +1,5 @@
-"""Command-line entry point for all assignment-three experiments.
+"""
 命令行入口点，运行作业三中的所有实验
-
 """
 
 from __future__ import annotations
