@@ -13,5 +13,6 @@
 
 ## 项目索引
 
-- [机器学习入门代码实践](machine-learning-practice/)：使用 NumPy、scikit-learn、
-  PyTorch 和 Matplotlib 实现并比较机器学习基础模型、MLP、CNN 与自注意力。
+| 项目 | 对应任务 | 状态 | 当前结果 |
+| --- | --- | --- | --- |
+| [机器学习入门代码实践](machine-learning-practice/) | 机器学习入门阶段作业第三部分 | 核心内容已完成，持续维护 | 13 个模型、7 项测试、11 张结果图与[结果报告](machine-learning-practice/RESULTS.md) |

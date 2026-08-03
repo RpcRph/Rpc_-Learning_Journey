@@ -6,8 +6,8 @@
 
 ## 文件
 
-- [课程学习报告_任鹏程.tex](课程学习报告_任鹏程.tex)：LaTeX 源文件。
-- [课程学习报告_任鹏程.pdf](课程学习报告_任鹏程.pdf)：提交版 PDF。
+- [课程学习报告_Rpc.tex](课程学习报告_Rpc.tex)：LaTeX 源文件。
+- [课程学习报告_Rpc.pdf](课程学习报告_Rpc.pdf)：提交版 PDF。
 
 ## 内容概览
 
@@ -17,10 +17,9 @@
 
 文档使用 `ctexart` 和 Windows 中文字体配置，应使用 XeLaTeX 编译。目录与总页数需要至少两次编译才能正确更新：
 
-```powershell
-xelatex .\课程学习报告_任鹏程.tex
-xelatex .\课程学习报告_任鹏程.tex
+```bash
+xelatex "./课程学习报告_Rpc.tex"
+xelatex "./课程学习报告_Rpc.tex"
 ```
 
 编译生成的临时文件已由仓库根目录的 `.gitignore` 排除，PDF 成品仍会被版本控制。
-

@@ -9,6 +9,13 @@ Python 插件和 `uv` 持续维护，我选择了“完整 Python 工程”形�
 [AI-Knowledge-Base](https://git.ccysam.xyz/ccysam/AI-Knowledge-Base)，实现范围以其中
 Machine Learning 的 1、2、3 和第二部分报告已经总结的深度学习模型为准。
 
+## 当前状态
+
+- 作业对应：机器学习入门阶段作业第三部分。
+- 完成情况：13 个模型及评价流程均已实现，7 项自动化测试通过。
+- 实验产出：结构化指标、结果报告和 11 张 Matplotlib 图片均已生成。
+- 维护状态：核心内容已完成，后续继续补充注释、实验和学习记录。
+
 ## 一、完成内容
 
 | 部分 | 模型或实践 | 实现方式 | 数据 |
@@ -59,10 +66,10 @@ machine-learning-practice/
 
 ### 1. 在 VS Code 中打开工程
 
-在 PowerShell 中执行：
+在 Git Bash 中执行：
 
-```powershell
-cd "D:\rpc_work\Rpc_-Learning_Journey\2026-summer\projects\machine-learning-practice"
+```bash
+cd /d/rpc_work/Rpc_-Learning_Journey/2026-summer/projects/machine-learning-practice
 code .
 ```
 
@@ -73,7 +80,7 @@ VS Code 提示推荐扩展时，安装 Microsoft 发布的 **Python** 和 **Pyla
 
 在 VS Code 集成终端中执行：
 
-```powershell
+```bash
 uv sync
 ```
 
@@ -86,20 +93,20 @@ uv sync
 按 `Ctrl+Shift+P`，输入并选择 `Python: Select Interpreter`，然后选择：
 
 ```text
-.\.venv\Scripts\python.exe
+.venv/Scripts/python.exe
 ```
 
 状态栏显示 `.venv` 或 Python 3.12 后，编辑器补全、运行按钮和测试功能都会使用这个环境。
 
 ### 4. 运行全部实验
 
-```powershell
+```bash
 uv run ml-practice
 ```
 
 等价的模块命令是：
 
-```powershell
+```bash
 uv run python -m ml_practice.run_all
 ```
 
@@ -112,7 +119,7 @@ uv run python -m ml_practice.run_all
 
 ### 5. 运行测试
 
-```powershell
+```bash
 uv run pytest
 ```
 
@@ -122,25 +129,25 @@ uv run pytest
 
 只检查经典机器学习和 Matplotlib 环境，不训练神经网络：
 
-```powershell
+```bash
 uv run ml-practice --skip-deep-learning
 ```
 
 先用 3 轮快速检查深度学习代码：
 
-```powershell
+```bash
 uv run ml-practice --epochs 3
 ```
 
 强制使用 CPU，便于不同电脑复现：
 
-```powershell
+```bash
 uv run ml-practice --device cpu
 ```
 
 电脑已经有 CUDA 版 PyTorch 且 CUDA 可用时，可以指定：
 
-```powershell
+```bash
 uv run ml-practice --device cuda
 ```
 
@@ -153,7 +160,7 @@ uv run ml-practice --device cuda
 本工程已经在 `pyproject.toml` 中声明了 Matplotlib，因此执行 `uv sync` 时会自动安装，
 不需要另装。如果以后在其他 uv 工程中单独添加它，可以运行：
 
-```powershell
+```bash
 uv add matplotlib
 ```
 
@@ -222,3 +229,9 @@ optimizer.zero_grad()
 
 新增模型时，可以在相应实验模块中训练并返回一个指标字典，再在 `run_all.py` 中把它加入
 汇总。所有数据集均来自 scikit-learn 本地包，实验阶段不依赖网络下载。
+
+## 七、许可
+
+本项目源代码采用仓库根目录 [LICENSE](../../../LICENSE) 中的 MIT License；README、
+自动生成的结果报告和原创结果图适用同一文件中说明的 CC BY-NC-SA 4.0。第三方依赖和
+数据集仍遵循其各自的许可。
