@@ -10,3 +10,8 @@
 - 当前结果、已知问题和下一步计划
 
 建议将可以独立发展的较大项目拆分为单独仓库，并在这里保留项目简介和链接。
+
+## 项目索引
+
+- [机器学习入门代码实践](machine-learning-practice/)：使用 NumPy、scikit-learn、
+  PyTorch 和 Matplotlib 实现并比较机器学习基础模型、MLP、CNN 与自注意力。

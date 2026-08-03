@@ -1,0 +1,16 @@
+﻿accuracy,adjusted_rand_index,best_C,best_cv_f1,best_gamma,cumulative_explained_variance,device,epochs,explained_variance_pc1,explained_variance_pc2,f1,fold_f1,inertia,iterations,macro_f1,mae,mean_f1,model,mse,parameters,precision,r2,recall,reconstruction_mse,rmse,roc_auc,silhouette,std_f1,task
+,,,,,,,,,,,,,85,,11.137974,,Linear Regression (NumPy),188.205007,,,0.930471,,,13.718783,,,,regression
+0.986014,,,,,,,,,,0.988889,,,,,,,Logistic Regression (NumPy),,,0.988889,,0.988889,,,0.997694,,,classification
+0.93007,,,,,,,,,,0.944444,,,,,,,Decision Tree,,,0.944444,,0.944444,,,0.931447,,,classification
+0.937063,,,,,,,,,,0.951351,,,,,,,Gaussian Naive Bayes (NumPy),,,0.926316,,0.977778,,,0.989308,,,classification
+0.986014,,,,,,,,,,0.988889,,,,,,,SVM (RBF kernel),,,0.988889,,0.988889,,,0.998323,,,classification
+0.958042,,,,,,,,,,0.967033,,,,,,,Random Forest,,,0.956522,,0.977778,,,0.99392,,,classification
+0.944056,,,,,,,,,,0.956044,,,,,,,Gradient Boosting,,,0.945652,,0.966667,,,0.993082,,,classification
+,,,,,,,,,,,"[0.992908, 0.958333, 0.979592, 0.993007, 0.986111]",,,,,0.98199,SVM Cross Validation,,,,,,,,,,0.012829,model_selection
+,,5.0,0.986071,scale,,,,,,,,,,,,,SVM Grid Search,,,,,,,,,,,model_selection
+,1.0,,,,,,,,,,,355.977551,2,,,,K-Means (NumPy),,,,,,,,,0.8786,,clustering
+,1.0,,,,,,,,,,,,,,,,Hierarchical Clustering,,,,,,,,,0.8786,,clustering
+,,,,,0.554063,,,0.361988,0.192075,,,,,,,,PCA (NumPy),,,,,,0.445937,,,,,dimensionality_reduction
+0.953333,,,,,,cpu,15,,,,,,,0.953214,,,MLP,,17226,,,,,,,,,deep_learning_classification
+0.955556,,,,,,cpu,15,,,,,,,0.954741,,,CNN,,13706,,,,,,,,,deep_learning_classification
+0.982222,,,,,,cpu,15,,,,,,,0.98207,,,Self-Attention,,26186,,,,,,,,,deep_learning_classification
