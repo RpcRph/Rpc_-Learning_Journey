@@ -19,7 +19,7 @@
 7. 在 VisA 上训练 AA-CLIP，并在未见过的 MVTec AD 上执行 zero-shot 评估；
 8. 将实际指标与论文表格进行比较，并记录不能逐位复原论文数字的原因。
 
-截至本报告当前版本，用户要求优先完成的两组核心协议均已结束：
+截至本报告当前版本，已结束的：
 
 - VisA 2/16/64/full-shot → MVTec 全部完成；
 - MVTec 2/16/64/full-shot → VisA 全部完成；
@@ -969,7 +969,7 @@ for f in patch_features:
 | `smoke_model.py` | 518×518 模型前向冒烟测试 |
 | `verify_env.py` | 检查 PyTorch、CUDA、cuDNN 和依赖 |
 | `download_visa.sh` | 并行下载、校验并解压 VisA |
-| `install_mvtec_archive.sh` | 校验用户取得的 MVTec tar 并安装 |
+| `install_mvtec_archive.sh` | 校验取得的 MVTec tar 并安装 |
 | `verify_dataset.py` | 逐条检查 metadata 引用文件 |
 | `generate_few_shot.py` | 生成确定性 few-shot 清单 |
 | `run_train.sh` | 保存日志和 checkpoint 的可恢复训练 |
