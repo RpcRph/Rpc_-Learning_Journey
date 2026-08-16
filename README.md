@@ -10,7 +10,7 @@
 
 ## 当前进度
 
-- 已归档 2 组课程作业，共包含学习报告、LaTeX 理论总结和代码实践等内容。
+- 已归档 3 组课程作业，共包含学习报告、LaTeX 理论总结、代码实践和双语论文转述等内容。
 - 已建立 1 个可运行项目，完成 13 个机器学习/深度学习模型、7 项测试和 11 张结果图。
 - 已记录 3 篇课堂随手记；独立周复盘尚待开始。
 
@@ -23,6 +23,7 @@
 | 2026-07-29 | 机器学习入门知识总结 | 作业 | [TeX](2026-summer/assignments/2026-07-28-weekly-learning-report/机器学习入门知识总结_Rpc.tex) | [PDF](2026-summer/assignments/2026-07-28-weekly-learning-report/机器学习入门知识总结_Rpc.pdf) |
 | 2026-07-29 至今 | [机器学习入门代码实践](2026-summer/projects/machine-learning-practice/README.md) | 作业/项目 | [Python](2026-summer/projects/machine-learning-practice/src/ml_practice/) | [结果报告](2026-summer/projects/machine-learning-practice/RESULTS.md) |
 | 2026-07-29  | Git实践 | 作业| [Markdown](2026-summer/assignments/2026-07-28-weekly-learning-report/Git实践.md)  | [Markdown](2026-summer/assignments/2026-07-28-weekly-learning-report/Git实践.md) |
+| 2026-08-11 | AA-CLIP 论文转述与双语汇报 | 作业 | [中文 Word](2026-summer/assignments/2026-08-11-aa-clip-paper-summary/AA-CLIP_论文转述_中文版.docx) / [中文 TeX](2026-summer/assignments/2026-08-11-aa-clip-paper-summary/AA-CLIP_论文转述_中文版.tex) / [English Word](2026-summer/assignments/2026-08-11-aa-clip-paper-summary/AA-CLIP_Paper_Paraphrase_English.docx) / [English TeX](2026-summer/assignments/2026-08-11-aa-clip-paper-summary/AA-CLIP_Paper_Paraphrase_English.tex) | [中文 PDF](2026-summer/assignments/2026-08-11-aa-clip-paper-summary/AA-CLIP_论文转述_中文版.pdf) / [English PDF](2026-summer/assignments/2026-08-11-aa-clip-paper-summary/AA-CLIP_Paper_Paraphrase_English.pdf) / [PPT](2026-summer/assignments/2026-08-11-aa-clip-paper-summary/AA-CLIP_论文总结汇报_Rpc.pptx) |
 
 
 ## 仓库结构

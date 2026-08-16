@@ -19,4 +19,4 @@
 | 2026-07-29 | [机器学习入门阶段作业](2026-07-28-weekly-learning-report/README.md)·第二部分：理论总结 | 已完成 |
 | 2026-07-29 至今 | [机器学习入门代码实践](../projects/machine-learning-practice/README.md)·第三部分 | 核心内容已完成，转入项目持续维护 |
 | 2026-07-29  |  [机器学习入门阶段作业](2026-07-28-weekly-learning-report/Git实践.md)·第四部分：Git实践  | 已完成|
-
+| 2026-08-11 | [AA-CLIP 论文转述与双语汇报](2026-08-11-aa-clip-paper-summary/README.md) | 已完成 |
